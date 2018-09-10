@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  background-color: #021e3a;
+}
+
+.hero{
+  margin-top: 20vh;
+}
+
+.hero-content{
+  color: #fff;
+  margin: 0 2rem;
+}
+
+.title{
+  font-size: 3em;
+}
+
+.subtitle{
+  font-size: 1.4em;
+}
