@@ -1,21 +1,75 @@
 body {
   margin: 0;
   background-color: #021e3a;
+
+  font-family: "Montserrat", sans-serif;
 }
 
-.hero{
-  margin-top: 20vh;
+body > main {
+  display: flex;
+  height: 100%;
 }
 
-.hero-content{
+.hero {
+  margin-bottom: 6rem;
+  justify-self: flex-end;
+  margin-top: auto;
+}
+
+.hero-content {
   color: #fff;
   margin: 0 2rem;
 }
 
-.title{
-  font-size: 3em;
+.title {
+  font-size: 3.2em;
+  text-transform: uppercase;
 }
 
-.subtitle{
-  font-size: 1.4em;
+.subtitle {
+  font-size: 1.6em;
+  font-weight: 300;
+}
+
+.description {
+  font-weight: 200;
+  opacity: 0.75;
+  margin-top: 2em;
+  max-width: 36em;
+  letter-spacing: 0.01em;
+}
+
+svg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+circle {
+  fill: #fff;
+}
+
+html,
+body {
+  font-size: 14px;
+}
+
+@media only all and (min-width: 767px) {
+  html,
+  body {
+    font-size: 16px;
+  }
+
+  main {
+    padding-left: 2em;
+  }
+}
+
+@media only all and (min-width: 1023px) {
+  html,
+  body {
+    font-size: 16px;
+  }
 }
